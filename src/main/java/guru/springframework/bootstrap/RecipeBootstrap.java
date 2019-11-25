@@ -44,6 +44,7 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
 
     private void loadCategories(){
         Category cat1 = new Category();
+        ///
         cat1.setDescription("American");
         categoryRepository.save(cat1);
 
